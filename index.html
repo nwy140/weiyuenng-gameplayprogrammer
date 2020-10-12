@@ -5,24 +5,24 @@ https://aldi.github.io/bulma-social/
 -->
 
 
-<html lang="en">  
-<!-- <html > -->
-    
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Showcase - Personal Portfolio One Page Bulma Theme</title>
-    <!-- Bulma Version 0.9.0-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/showcase_mod.css" />
-    <script
-      src="https://kit.fontawesome.com/2828f7885a.js"
-      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="icon" type="image/png" href="favicon.png" />
-  </head>
+  <html lang="en">  
+  <!-- <html > -->
+      
+  <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Showcase - Personal Portfolio One Page Bulma Theme</title>
+      <!-- Bulma Version 0.9.0-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+      <link rel="stylesheet" type="text/css" href="./css/showcase_mod.css" />
+      <script
+        src="https://kit.fontawesome.com/2828f7885a.js"
+        integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+        crossorigin="anonymous"
+      ></script>
+      <link rel="icon" type="image/png" href="favicon.png" />
+    </head>
 
   <body >
       
@@ -46,9 +46,58 @@ https://aldi.github.io/bulma-social/
     <div class="header-wrapper " id="home"> 
       <!-- Begin Hero -->
       <section class="hero is-large"  >
-        <!-- Begin Mobile Nav -->
         <!-- <nav class="navbar is-transparent is-hidden-desktop  "> -->
-          <!-- Read https://geedew.com/Creating-a-Sticy-Header-with-Bulma-CSS/ -->
+        <!-- Begin Mobile Nav -->
+          <nav class="navbar is-black is-fixed-top ">
+           <div class="navbar-brand ">
+             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+               <span></span>
+               <span></span>
+               <span></span>
+             </div>
+           </div>
+         
+           <div id="navbarExampleTransparentExample" class="navbar-menu">
+             <div class="navbar-end">
+               <a class="navbar-item" href="#about">
+                 <span class="icon">
+                   <i class="fas fa-info"></i>
+                 </span>
+                 <span>About</span>
+               </a>
+               <a class="navbar-item" href="#services">
+                 <span class="icon">
+                   <i class="fas fa-bars"></i>
+                 </span>
+                 <span>Services</span>
+               </a>
+               <a class="navbar-item" href="#resume">
+                 <span class="icon">
+                   <i class="fas fa-file-alt"></i>
+                 </span>
+                 <span>Resume</span>
+               </a>
+               <a class="navbar-item" href="#portfolio">
+                 <span class="icon">
+                   <i class="fas fa-th-list"></i>
+                 </span>
+                 <span>Portfolio</span>
+               </a>
+               <a class="navbar-item" href="#contact">
+                 <span class="icon">
+                   <i class="fas fa-envelope"></i>
+                 </span>
+                 <span>Contact</span>
+               </a>
+             </div>
+           </div>
+         </nav>
+
+
+          <!-- begin mod navbar -->
+ <!-- Navigation bar -->
+
+          <!-- end mod navbar -->
           <nav  class="navbar is-transparent is-hidden-desktop ">
 
           <!-- Begin Burger Menu -->
@@ -103,10 +152,10 @@ https://aldi.github.io/bulma-social/
             <h2 class="title">Wei Yuen Ng</h2>  
             
             <!-- Original            <h2 class="title">Ashley</h2>   -->
-            <h1 class="subtitle profession">A Gameplay Programmer</h1>
+            <h1 class="subtitle profession has-text-weight-bold	">A Gameplay Programmer</h1>
 
             <!-- Original <h1 class="subtitle profession">A UI/UX Designer</h1> -->
-            <!-- Edit -->            <p class="	" id="1_Bio"></h1>
+            <!-- Edit -->            <p class="has-text-weight-semibold		" id="1_Bio"></h1>
 
           </div>
         </div>
@@ -159,18 +208,14 @@ https://aldi.github.io/bulma-social/
               class="column is-6 has-vertically-aligned-content"
               data-aos="fade-right"
             >
-              <p class="is-larger">
-                &emsp;&emsp;<strong
-                  >Header Header Header Header Header Header Header Header Header Header Header Header Header </strong
-                >
-              </p>
-              <!-- <p class="is-larger">
-                &emsp;&emsp;<strong
+
+              <p class="is-larger" >
+                &emsp;&emsp;<strong  id=" " >
                   >Showcase is a modern, beautiful personal website template to
                   showcase who you are, as well as projects you've worked on in
                   the past.</strong
                 >
-              </p> -->
+              </p>
               <br />
               <p>
                 Desc DescDescDescDescDescDescDescDescDescDescDescDescDescDesc

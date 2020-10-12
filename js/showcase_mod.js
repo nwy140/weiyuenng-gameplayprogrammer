@@ -77,9 +77,9 @@ var myString = 'A rather long string of English text, an error message \
                 just gravy.  Have a nice day.';
 
 var _1_bio = "Hi! My name is Wei Yuen Ng and I'm a self-taught gameplay programmer \n who has previously interned in a local game studio. \n \
-As a game programmer, I have a habit of experimenting with technology \n and doing my own self-learning outside of work. \n ";
+As a game programmer, I have a habit of experimenting with technology \n and doing my own self-learning outside of work. \n \n \
+My goal right now is to create and get my own debut game out there into the market. \n"; 
 // As a game developer, I believe that the most important thing in \ngame development to find your own style and auteur in anything you do. \n \
-// My goal right now is to create and get a debut game out there into the market. \n"; 
 // I'm currently unemployed due to COVID 19 and forced to transfer into \nKDU UOW's Bachelor in Game Development program from the University of Utah \n \
 // to save money and time. But I am not seeking employment right now, \n \
 // until I get a debut game out." ;
@@ -91,6 +91,7 @@ $(window).on("load", function() {
   _1_bio = _1_bio.replace(new RegExp('\r?\n','g'), '<br />');
 
   document.getElementById('1_Bio').innerHTML = _1_bio; // put code  <p id="output"></p>
+
 
   //  mod
 
