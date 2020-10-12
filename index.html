@@ -5,15 +5,17 @@ https://aldi.github.io/bulma-social/
 -->
 
 
-<html lang="en">
-  <head>
+<html lang="en">  
+<!-- <html > -->
+    
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Showcase - Personal Portfolio One Page Bulma Theme</title>
     <!-- Bulma Version 0.9.0-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/showcase.css" />
+    <link rel="stylesheet" type="text/css" href="./css/showcase_mod.css" />
     <script
       src="https://kit.fontawesome.com/2828f7885a.js"
       integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
@@ -22,7 +24,8 @@ https://aldi.github.io/bulma-social/
     <link rel="icon" type="image/png" href="favicon.png" />
   </head>
 
-  <body>
+  <body >
+      
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
       <div class="preloader">
@@ -40,14 +43,17 @@ https://aldi.github.io/bulma-social/
     <!-- End Scroll Up Button -->
 
     <!-- Begin Header -->
-    <div class="header-wrapper" id="home">
+    <div class="header-wrapper " id="home"> 
       <!-- Begin Hero -->
-      <section class="hero is-large">
+      <section class="hero is-large"  >
         <!-- Begin Mobile Nav -->
-        <nav class="navbar is-transparent is-hidden-desktop  ">
+        <!-- <nav class="navbar is-transparent is-hidden-desktop  "> -->
+          <!-- Read https://geedew.com/Creating-a-Sticy-Header-with-Bulma-CSS/ -->
+          <nav class="navbar is-transparent is-hidden-desktop  is-fixed-top">
+
           <!-- Begin Burger Menu -->
           <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="mobile-nav">
+            <div class="navbar-burger burger " data-target="mobile-nav">
               <span></span>
               <span></span>
               <span></span>
