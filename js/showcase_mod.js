@@ -52,21 +52,12 @@ $(document).ready(function($) {
   $("body").removeClass("preloader-site");
 
 
-// mod
-  $(window).scroll(function () {
-    console.log($(window).scrollTop())
-    if ($(window).scrollTop() > $('#cover').height()) {
-        $('#navbar-sticky').addClass('is-fixed');
-    }
-    if ($(window).scrollTop() < $('#cover').height()) {
-        $('#navbar-sticky').removeClass('is-fixed');
-    }
-  });
-
+  
   
 });
 
-// document content Read https://stackoverflow.com/questions/40525339/how-can-i-display-a-variable-content-in-html
+// begin mod
+// begin document content Read https://stackoverflow.com/questions/40525339/how-can-i-display-a-variable-content-in-html
   // help https://bulma.io/documentation/helpers/typography-helpers/
 var text1="bad";
 var myString = 'A rather long string of English text, an error message \
@@ -91,9 +82,9 @@ $(window).on("load", function() {
   _1_bio = _1_bio.replace(new RegExp('\r?\n','g'), '<br />');
 
   document.getElementById('1_Bio').innerHTML = _1_bio; // put code  <p id="output"></p>
+ // end document content
 
-
-  //  mod
+  //  end mod
 
   
   var Body = $("body");
