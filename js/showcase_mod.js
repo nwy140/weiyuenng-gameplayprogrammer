@@ -58,10 +58,11 @@ $(document).ready(function($) {
 
 // begin mod
 // begin document content Read https://stackoverflow.com/questions/40525339/how-can-i-display-a-variable-content-in-html
-  // help https://bulma.io/documentation/helpers/typography-helpers/
-var text1="Lorem Ipsum";
+// help https://bulma.io/documentation/helpers/typography-helpers/
+var _7_resume = "Preview My Resume and Reference Letter From MDEC and Ze Ren";
+var text1="Preview My Resume and Reference Letter From MDEC and Ze Ren";
 var myString = 'A rather long string of English text, an error message \
-                actually that just keeps going and going -- an error \
+actually that just keeps going and going -- an error \
                 message to make the Energizer bunny blush (right through \
                 those Schwarzenegger shades)! Where was I? Oh yes, \
                 you\'ve got an error and all the extraneous whitespace is \
@@ -82,7 +83,7 @@ You can find my portfolio regarding my past experiences and side projects below"
 // to save money and time. But I am not seeking employment right now, \n \
 // until I get a debut game out." ;
 
-var _7_resume = "Preview My Resume and Reference Letter From MDEC and Ze Ren";
+
 $(window).on("load", function() {
   
   document.getElementById('output').innerHTML = text1; // put code  <p id="output"></p>
@@ -91,7 +92,7 @@ $(window).on("load", function() {
 
 
   document.getElementById('1_Bio').innerHTML = _1_bio; // put code  <p id="output"></p>
-  document.getElementById('7_Resume').innerHTML = _7_resume; // put code  <p id="output"></p>
+  document.getElementById('output').innerHTML = text1; // put code  <p id="output"></p>
 
  // end document content
 
