@@ -91,7 +91,7 @@ $(window).on("load", function() {
   _1_bio = _1_bio.replace(new RegExp('\r?\n','g'), '<br />');
 
 
-  document.getElementById('1_Bio').innerHTML = _1_bio; // put code  <p id="output"></p>
+  // document.getElementById('1_Bio').innerHTML = _1_bio; // put code  <p id="output"></p>
   // document.getElementById('output').innerHTML = text1; // put code  <p id="output"></p>
 
  // end document content
