@@ -69,13 +69,13 @@ var myString = 'A rather long string of English text, an error message \
 
                 // I have a tendency to prototype 3D games whenever I get a vision in my head or during game jams. \n\n \
 
-var _1_bio = "Hi! My name is Wei Yuen Ng and I'm a self-taught gameplay programmer  who has previously interned in a local game studio.          \n \
+var _1_bio = "\nHi! My name is Wei Yuen Ng and I'm a self-taught gameplay programmer  who has previously interned in a local game studio.          \n \
 As a game programmer, I have a habit of experimenting with technology and doing my own self-learning outside of work. \n \n\
 I have a preference for 3D projects over 2D projects as I find them \n to be more fun and challenging to make.\n\
 I have a few side projects going on right now, one of it is a 3D action game. \n I'll post more of my game dev progress later on, on itch.io \n \
 My goal right now is to create and release my own debut game out there into the market.  \n  \n\
 I'm currently unemployed due to Covid 19 as\n  I was recently forced to transfer from the University of Utah \n to UOW KDU's Bachelor of Game Development Program. \n\n \
-You can find my portfolio regarding my past experiences and side projects below";
+\nYou can find my portfolio regarding my past experiences and side projects below";
 // As a game developer, I believe that the most important thing in \ngame development to find your own style and auteur in anything you do. \n \
 // I'm currently unemployed due to COVID 19 and forced to transfer into \nKDU UOW's Bachelor in Game Development program from the University of Utah \n \
 // to save money and time. But I am not seeking employment right now, \n \
