@@ -59,7 +59,7 @@ $(document).ready(function($) {
 // begin mod
 // begin document content Read https://stackoverflow.com/questions/40525339/how-can-i-display-a-variable-content-in-html
   // help https://bulma.io/documentation/helpers/typography-helpers/
-var text1="bad";
+var text1="Lorem Ipsum";
 var myString = 'A rather long string of English text, an error message \
                 actually that just keeps going and going -- an error \
                 message to make the Energizer bunny blush (right through \
