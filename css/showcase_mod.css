@@ -12,7 +12,12 @@ strong{
 h1{
   color: white;
 }
+.center-justified {
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
 
+  }
 /* Begin Default Text Color  mod */
 
 /*  */
