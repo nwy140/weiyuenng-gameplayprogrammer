@@ -71,16 +71,18 @@ var myString = 'A rather long string of English text, an error message \
 
 var _1_bio = "\nHi! My name is Wei Yuen Ng and I'm a self-taught gameplay programmer  who has previously interned in a local game studio.          \n \
 As a game programmer, I have a habit of experimenting with technology and doing my own self-learning outside of work. \n \n\
-I have a preference for 3D projects over 2D projects as I find them \n to be more fun and challenging to make.\n\
-I have a few side projects going on right now, one of it is a 3D action game. \n I'll post more of my game dev progress later on, on itch.io \n \
+I have a preference for 3D projects over 2D projects as I find them \n to be more fun and challenging to make.\n\n\
+I'm currently developing some games under my current pen-name Solitude Entertainment, one of it is a 3D action game.\n SilentWolfStudios is my old pen name. \n\n \
+I'll post more of my game dev progress later on, on itch.io \n \
 My goal right now is to create and release my own debut game out there into the market.  \n  \n\
-I'm currently unemployed due to Covid 19 as\n  I was recently forced to transfer from the University of Utah \n to UOW KDU's Bachelor of Game Development Program. \n\n \
-\nYou can find my portfolio regarding my past experiences and side projects below";
+As of now, I'm unemployed due to Covid 19 as\n  I was recently forced to transfer from the University of Utah \n to UOW KDU's Bachelor of Game Development Program. \n\n \
+You can find my portfolio regarding my past experiences and side projects below";
 // As a game developer, I believe that the most important thing in \ngame development to find your own style and auteur in anything you do. \n \
 // I'm currently unemployed due to COVID 19 and forced to transfer into \nKDU UOW's Bachelor in Game Development program from the University of Utah \n \
 // to save money and time. But I am not seeking employment right now, \n \
 // until I get a debut game out." ;
 
+var _7_resume = "Preview My Resume and Reference Letter From MDEC and Ze Ren";
 $(window).on("load", function() {
   
   document.getElementById('output').innerHTML = text1; // put code  <p id="output"></p>
@@ -89,7 +91,7 @@ $(window).on("load", function() {
 
 
   document.getElementById('1_Bio').innerHTML = _1_bio; // put code  <p id="output"></p>
-  document.getElementById("1_Bio").style.textAlign = "right";
+  document.getElementById('7_Resume').innerHTML = _7_resume; // put code  <p id="output"></p>
 
  // end document content
 
