@@ -76,7 +76,7 @@ I have a preference for 3D projects over 2D projects as I find them \n to be mor
 I'm currently developing some games under my current pen-name Solitude Entertainment, one of it is a 3D action game.\n SilentWolfStudios is my old pen name. \n\n \
 I'll post more of my game dev progress later on, on itch.io \n \
 My goal right now is to create and release my own debut game out there into the market.  \n  \n\
-As of now, I'm unemployed due to Covid 19 as\n  I was recently forced to transfer from the University of Utah \n to UOW KDU's Bachelor of Game Development Program. \n\n \
+As of now, I'm unemployed due to Covid 19 as\n  I was recently forced to transfer from the University of Utah \n to UOW KDU's Bachelor of Game Development Program to save money and time. \n\n \
 You can find my portfolio regarding my past experiences and side projects below";
 // As a game developer, I believe that the most important thing in \ngame development to find your own style and auteur in anything you do. \n \
 // I'm currently unemployed due to COVID 19 and forced to transfer into \nKDU UOW's Bachelor in Game Development program from the University of Utah \n \
