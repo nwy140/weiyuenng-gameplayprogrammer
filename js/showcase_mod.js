@@ -73,8 +73,8 @@ var _1_bio = "Hi! My name is Wei Yuen Ng and I'm a self-taught gameplay programm
 As a young game programmer, I have a habit of experimenting with technology \n and doing my own self-learning outside of work. \n \
 I have a preference for 3D projects over 2D projects as I find them \n to be more fun and challenging to make.\n\n \
 My goal right now is to create and release my own debut game out there into the market.  \n  \
-I'm currently unemployed due to Covid 19 and I was recently forced to transfer from the University of Utah \nto UOW KDU Bachelor of Game Development Program. \n \
-You can find my portfolio below regarding my past experiences and side projects "; 
+I'm currently unemployed due to Covid 19 as\n  I was recently forced to transfer from the University of Utah \n to UOW KDU's Bachelor of Game Development Program. \n \
+You can find my portfolio regarding my past experiences and side projects below \n\n\n \n\nConnect with me\n\n "; 
 // As a game developer, I believe that the most important thing in \ngame development to find your own style and auteur in anything you do. \n \
 // I'm currently unemployed due to COVID 19 and forced to transfer into \nKDU UOW's Bachelor in Game Development program from the University of Utah \n \
 // to save money and time. But I am not seeking employment right now, \n \

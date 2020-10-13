@@ -181,12 +181,23 @@ html {
 
 .main-content .section-light {
   padding: 30px;
-  background-color: #1e1e1e;
+    /* _Edit */
+    background-color: #1e1e1e;
 }
 
 .main-content .section-light.about-me {
   padding-bottom: 100px;
+  /* _Edit */
+  background-color: #1e1e1e;
 }
+/* _EDIT CSS */
+/* .main-content .section-light.resume {
+  padding-bottom: 100px;
+  /* _Edit */
+  background-color: #1e1e1e;
+} */
+/* _EDIT CSS */
+
 
 .main-content .section-light.about-me .is-larger {
   font-size: 1.2rem;
