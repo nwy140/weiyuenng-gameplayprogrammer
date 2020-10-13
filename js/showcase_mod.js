@@ -60,7 +60,7 @@ $(document).ready(function($) {
 // begin document content Read https://stackoverflow.com/questions/40525339/how-can-i-display-a-variable-content-in-html
 // help https://bulma.io/documentation/helpers/typography-helpers/
 var _7_resume = "Preview My Resume and Reference Letter From MDEC and Ze Ren";
-var text1="Preview My Resume and Reference Letter From MDEC and Ze Ren";
+// var text1="Preview My Resume and Reference Letter From MDEC and Ze Ren";
 var myString = 'A rather long string of English text, an error message \
 actually that just keeps going and going -- an error \
                 message to make the Energizer bunny blush (right through \
@@ -92,7 +92,7 @@ $(window).on("load", function() {
 
 
   document.getElementById('1_Bio').innerHTML = _1_bio; // put code  <p id="output"></p>
-  document.getElementById('output').innerHTML = text1; // put code  <p id="output"></p>
+  // document.getElementById('output').innerHTML = text1; // put code  <p id="output"></p>
 
  // end document content
 
