@@ -1,7 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
 
-/*  mod */
+/* Begin Default Text Color  mod */
 /* https://geedew.com/Creating-a-Sticy-Header-with-Bulma-CSS/ */
+p {
+  color: white;
+}
+
+strong{
+  color: white;
+}
+h1{
+  color: white;
+}
+
+/* Begin Default Text Color  mod */
 
 /*  */
 .has-vertically-aligned-content {
@@ -58,6 +70,7 @@ html {
   height: 50px;
   background: white;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
+  /* box-shadow: 0 2px 15px rgba(30, 30, 30, 0.082);  #1e1e1e */
 }
 
 @media (max-width: 599px) {
@@ -248,7 +261,8 @@ html {
 }
 
 .main-content .section-title {
-  color: #43485c;
+  /* color: #43485c; */
+  color: white;
   text-transform: uppercase;
   font-size: 1.8rem;
   letter-spacing: 2px;
