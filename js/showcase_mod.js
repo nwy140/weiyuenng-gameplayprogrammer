@@ -86,7 +86,6 @@ You can find my portfolio regarding my past experiences and side projects below"
 
 $(window).on("load", function() {
   
-  document.getElementById('output').innerHTML = text1; // put code  <p id="output"></p>
 
   _1_bio = _1_bio.replace(new RegExp('\r?\n','g'), '<br />');
 
